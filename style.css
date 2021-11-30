@@ -90,6 +90,11 @@ button:hover {
 
 @media (min-width: 1025px) {
 
+    body {
+        background: url("images/bg-desktop.svg") no-repeat center center fixed hsl(257, 40%, 49%);
+        background-size: cover;
+    }
+
 
     .container {
         display: grid;
